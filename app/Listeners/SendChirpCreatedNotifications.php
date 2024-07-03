@@ -9,7 +9,7 @@ use App\Events\ChirpCreated;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
 
-class SendChirpCreatedNotifications implements ShouldQueue
+class SendChirpCreatedNotifications
 {
     /**
      * Create the event listener.
